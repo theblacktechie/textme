@@ -1,7 +1,7 @@
 <html>
 <head>
     <!--Add your title here-->
-    <title>Text Kris: TheBlackTechie™</title>
+    <title>Text Me - Powered by SuperPhone®</title>
     
     <!--This code makes the website responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
     <!--This is the favicon for the browser tab-->
-    <link rel="shortcut icon" href="cell-phone.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://app.superphone.io/favicon.ico" type="image/x-icon">
     
     <!--These are the stylesheets for the page-->
     <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
@@ -21,8 +21,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
     <!--This is the actual function that calls the form widget-->
-	<center><img src="The Black Techie (2).png" width="350" height="240"></img>
     <script type="text/javascript">
         $(document).ready(function () {
     
@@ -47,10 +47,10 @@
                 formData.map(function (element) {
                     requestData[element.name] = element.value;
                 });
-		    
+    
                 // Send post to API
                 $.ajax({
-                    url: 'https://superphone.io/w/EDgLr9', // Url where to submit the request
+                    url: 'https://superphone.io/w/my-url', // Url where to submit the request
                     type: "POST",
                     beforeSend: function (request) {
                         request.setRequestHeader("Access-Control-Allow-Origin", "*");
@@ -87,9 +87,6 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
         }
         
         *{
@@ -198,7 +195,7 @@
     <div class="page-center">
     <div class="custom-form">
         <div class="container">
-            <h1 class="text-center" style="font-weight: bold">KRIS SMITH, MBA | THEBLACKTECHIE™</h1>
+            <h1 class="text-center" style="font-weight: bold">YOUR NAME HERE</h1>
             <p class="text-center" style="font-size: 21px">PLEASE ENTER YOUR PHONE NUMBER<br>AND I WILL TEXT YOU RIGHT BACK:</p>
             <form id="addContact" class="form-horizontal" style="min-width: 100%" method="POST" action="#" autocomplete="false" data-parsley-validate>
                 <div class="form-group">
